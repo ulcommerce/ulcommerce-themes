@@ -17,7 +17,7 @@ En el repositorio de tienda que estes estructurando debes
 
 La siguiente tabla muestra la estructura general de la API:
 
-> **NOTA:** Ejemplo de estructura de un repositorio.
+> Ejemplo de estructura de un repositorio.
 
 ```
 /
@@ -51,21 +51,14 @@ La siguiente tabla muestra la estructura general de la API:
 ## 2. Archivos
 La autenticación al momento de realizar peticiones esta basada en un token propio de cada tienda.
 
-**NOTA:** Los archivos estaticos deben ser colocados en la raiz .
+<a name="id-lisMar"></a>
+###  - base.html
+Ejemplo para listar marcas de productos, url de prueba:
+http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/list-make
 
+Para listar todas las marcas simplemente se realiza la petición a la url anterior ( Sin pasar ningún parametro ), si se desea una marca específica se debe enviar el siguiente JSON:
 
-<a name="id-codigosEstado"></a>
-## 3. Códigos de Estado
-Cuando se realiza una petición a la API se muestra un código de estado de HTTP en respuesta a la solicitud. Este código de estado proporciona información acerca del estado de la solicitud. 
-
-A continuación se muestran los códigos de estado que podrán ser retornados por la API:
-
-| Código | Descripción |
-| ------ | ------ |
-| 200 | OK, petición procesada exitosamente. |
-| 401 | Unauthorized, se genera al momento de realizar la autenticación y esta falla debido al token, nombre de la tienda o versión de la API. |
-| 404 | Not Found, recurso o método no encontrado. |
-| 500 | Internal Server.  |
+> **NOTA:** "Número" representa el id de la marca que desea listar.
 
 <a name="id-metodos"></a>
 # II. Métodos Generales
