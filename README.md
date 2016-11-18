@@ -16,34 +16,32 @@ La API de ulcommerce ha sido desarrollada con el fin de brindar acceso total a n
 <a name="id-introduccion"></a>
 # I. Estructura de Archivos y Carpetas
 
-<a name="id-estructura"></a>
+<a name="id-carpeta"></a>
 ## 1. Carpetas
 En el repositorio de tienda que estes estructurando debes 
 
 La siguiente tabla muestra la estructura general de la API:
 
-| Nombre | Descripción |
-| ------ | ------ |
-| views | Carpeta donde se van a ir todas las vistas de la tienda. |
-| mails | Carpeta  |
-
+```
+bootstrap/
+├── css/
+│   ├── bootstrap.css
+│   ├── bootstrap.css.map
+│   ├── bootstrap.min.css
+│   └── bootstrap.min.css.map
+└── js/
+    ├── bootstrap.js
+    └── bootstrap.min.js
+```
 **NOTA:** Los archivos estaticos deben ser colocados en la raiz .
 
 
-<a name="id-autenticacion"></a>
-## 2. Autenticación
+<a name="id-archivos"></a>
+## 2. Archivos
 La autenticación al momento de realizar peticiones esta basada en un token propio de cada tienda.
 
-Pasos para obtener el token de la tienda :
+**NOTA:** Los archivos estaticos deben ser colocados en la raiz .
 
-- Entrar en la siguiente dirección http://www.ulcommerce.com/developer/
-- En la barra de opciones ubicada al costado izquierdo de la página, hacer click en la opción <strong>Tiendas</strong>
-( se listar&aacute;n las tiendas configuradas previamente en el administrador de la tienda. )
-- En la secci&oacute;n de en medio de la p&aacute;gina aparecer&aacute; por medio de un grid simple el nombre de la tienda, un boton para activar/desactivar la tienda, y un boton para editar la configuraci&oacute;.
-- Hacer click en el bot&oacute;n de la derecha para poder acceder al men&uacute; de configuraci&oacute;n.
-- En la barra central de opciones seleccionar <strong>configuraci&oacute;n</strong> y posteriormente ir hasta la parte inferior de la pantalla en <strong>Opciones de Desarrollo</strong>
-
-En esta secci&oacute;n se obtiene el token de seguridad que se adiciona a la Api para su correcto funcionamiento, hay dos opciones disponibles. Eliminar tienda y recargar token (esta opcion nos permite generar nuevamente un token aleatorio para el uso privado de la tienda)
 
 <a name="id-codigosEstado"></a>
 ## 3. Códigos de Estado
