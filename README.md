@@ -1,12 +1,7 @@
 ulcommerce Themes
 =======
 
-La API de ulcommerce ha sido desarrollada con el fin de brindar acceso total a nuestros desarrolladores para que puedan conectar sus aplicaciones o herramientas de terceros a su tienda online.
-
- * Acceso total a la tienda.
- * API REST.
- * Datos tipo JSON.
- * Métodos HTTP.
+Con el fin de que nuestros desarrolladores puedan crear tiendas a medida hemos creado un sencillo sistema de temas de rapida implementación y flexible, el sistema está basado en el sistema de plantillas de PHP <a href="http://twig.sensiolabs.org/" target="_blank">Twig</a>.
  
 <a name="id-introduccion"></a>
 # I. Archivos y Carpetas
