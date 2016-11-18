@@ -8,31 +8,42 @@ La API de ulcommerce ha sido desarrollada con el fin de brindar acceso total a n
  * Datos tipo JSON.
  * Métodos HTTP.
  
-*Versión Actual: v0.1*
-
-[![Build Status](https://travis-ci.org/stripe/stripe-php.svg?branch=master)](https://travis-ci.org/stripe/stripe-php)
-[![Coverage Status](https://coveralls.io/repos/github/ulcommerce/ulcommerce-api/badge.svg?branch=master)](https://coveralls.io/github/ulcommerce/ulcommerce-api?branch=master)
-
 <a name="id-introduccion"></a>
-# I. Estructura de Archivos y Carpetas
+# I. Archivos y Carpetas
 
-<a name="id-carpeta"></a>
+<a name="id-carpetas"></a>
 ## 1. Carpetas
 En el repositorio de tienda que estes estructurando debes 
 
 La siguiente tabla muestra la estructura general de la API:
 
+> **NOTA:** Ejemplo de estructura de un repositorio.
+
 ```
-bootstrap/
+/
 ├── css/
 │   ├── bootstrap.css
-│   ├── bootstrap.css.map
-│   ├── bootstrap.min.css
-│   └── bootstrap.min.css.map
+│   ├── main.css
+├── views/
+│   ├── index.html
+│   ├── base.html
+│   ├── blog.html
+│   ├── cart.html
+│   ├── category.html
+│   ├── contact.html
+│   ├── product.html
+│   ├── make.html
+│   ├── page.html
+│   ├── post.html
+│   ├── stores.html
+├── mails/
+│   ├── register.html
+│   ├── register.html
 └── js/
     ├── bootstrap.js
-    └── bootstrap.min.js
+    └── main.js
 ```
+
 **NOTA:** Los archivos estaticos deben ser colocados en la raiz .
 
 
