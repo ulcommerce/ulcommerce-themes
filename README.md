@@ -73,7 +73,7 @@ Es la vista de los productos de la tienda.
 | Objeto | Descripción | 
 | ------ | ------ | 
 | {{ store.currency }} | Moneda que tiene seleccionada la tienda | 
-| {{ cart.total price }} | Valor total del carro de compras | 
+| {{ cart.total }} | Valor total del carro de compras | 
 
 <a name="id-marcas"></a>
 ## Pages
@@ -81,7 +81,7 @@ Es la vista de los productos de la tienda.
 | Objeto | Descripción | 
 | ------ | ------ | 
 | {{ store.currency }} | Moneda que tiene seleccionada la tienda | 
-| {{ cart.total price }} | Valor total del carro de compras | 
+| {{ cart.total }} | Valor total del carro de compras | 
 
 <a name="id-marcas"></a>
 ## Sections
@@ -89,7 +89,7 @@ Es la vista de los productos de la tienda.
 | Objeto | Descripción | 
 | ------ | ------ | 
 | {{ store.currency }} | Moneda que tiene seleccionada la tienda | 
-| {{ cart.total price }} | Valor total del carro de compras | 
+| {{ cart.total }} | Valor total del carro de compras | 
 
 <a name="id-marcas"></a>
 ## Banners
@@ -97,4 +97,23 @@ Es la vista de los productos de la tienda.
 | Objeto | Descripción | 
 | ------ | ------ | 
 | {{ store.currency }} | Moneda que tiene seleccionada la tienda | 
-| {{ cart.total price }} | Valor total del carro de compras | 
+| {{ cart.total }} | Valor total del carro de compras | 
+
+<a name="id-marcas"></a>
+## Categories
+
+| Objeto | Descripción | 
+| ------ | ------ | 
+| {{ store.currency }} | Moneda que tiene seleccionada la tienda | 
+| {{ cart.total }} | Valor total del carro de compras | 
+
+
+<a name="id-metodos"></a>
+# III. Filtros
+
+
+<a name="id-metodos"></a>
+# VI. Variables
+
+<a name="id-metodos"></a>
+# VII. Formularios
