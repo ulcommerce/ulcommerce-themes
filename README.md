@@ -8,7 +8,7 @@ Con el fin de que nuestros desarrolladores puedan crear tiendas a medida hemos c
 
 <a name="id-carpetas"></a>
 ## 1. Carpetas
-En el repositorio de tienda que estes estructurando debes 
+Hemos tratado de mantener la flexibilidad como principio de nuestros temas aunque se deben mantener una organización en las carpetas con 
 
 La siguiente tabla muestra la estructura general de la API:
 
@@ -56,10 +56,10 @@ Para listar todas las marcas simplemente se realiza la petición a la url anteri
 > **NOTA:** "Número" representa el id de la marca que desea listar.
 
 <a name="id-metodos"></a>
-# II. Métodos Generales
+# II. Objetos 
 
 <a name="id-marcas"></a>
-## 1. Gestión de Marcas
+## 1. Cart
 En esta sección de la documentación se especificarán los procesos que se deben realizar para listar, crear, actualizar y eliminar marcas de manera correcta por medio de la API.
 
 <a name="id-lisMar"></a>
