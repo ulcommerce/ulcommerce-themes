@@ -7,7 +7,7 @@ Con el fin de que nuestros desarrolladores puedan crear tiendas a medida hemos c
 # I. Archivos y Carpetas
 
 <a name="id-carpetas"></a>
-## 1. Carpetas
+## Carpetas
 Hemos tratado de mantener la flexibilidad como principio de nuestros temas aunque se deben mantener una organización en las carpetas con 
 
 La siguiente tabla muestra la estructura general de la API:
@@ -43,15 +43,24 @@ La siguiente tabla muestra la estructura general de la API:
 
 
 <a name="id-archivos"></a>
-## 2. Archivos
+## Archivos
 La autenticación al momento de realizar peticiones esta basada en un token propio de cada tienda.
 
-<a name="id-lisMar"></a>
+<a name="id-base"></a>
 ###  - base.html
-Ejemplo para listar marcas de productos, url de prueba:
-http://ulcommerce/api/v0.1/ulc_plus/01542e2b2bd0bba14/list-make
+Este es el archivo que sale en todas las vistas, usualmente tiene el header y footer.
 
-Para listar todas las marcas simplemente se realiza la petición a la url anterior ( Sin pasar ningún parametro ), si se desea una marca específica se debe enviar el siguiente JSON:
+<a name="id-cart"></a>
+###  - cart.html
+Es la vista del carrito de compras.
+
+<a name="id-index"></a>
+###  - index.html
+Es la vista del home de la tienda
+
+<a name="id-product"></a>
+###  - product.html
+Es la vista de los productos de la tienda.
 
 > **NOTA:** "Número" representa el id de la marca que desea listar.
 
@@ -64,4 +73,28 @@ Para listar todas las marcas simplemente se realiza la petición a la url anteri
 | Objeto | Descripción | 
 | ------ | ------ | 
 | {{ store.currency }} | Moneda que tiene seleccionada la tienda | 
-| {{ cart.total | price }} | Valor total del carro de compras | 
+| {{ cart.total price }} | Valor total del carro de compras | 
+
+<a name="id-marcas"></a>
+## Pages
+
+| Objeto | Descripción | 
+| ------ | ------ | 
+| {{ store.currency }} | Moneda que tiene seleccionada la tienda | 
+| {{ cart.total price }} | Valor total del carro de compras | 
+
+<a name="id-marcas"></a>
+## Sections
+
+| Objeto | Descripción | 
+| ------ | ------ | 
+| {{ store.currency }} | Moneda que tiene seleccionada la tienda | 
+| {{ cart.total price }} | Valor total del carro de compras | 
+
+<a name="id-marcas"></a>
+## Banners
+
+| Objeto | Descripción | 
+| ------ | ------ | 
+| {{ store.currency }} | Moneda que tiene seleccionada la tienda | 
+| {{ cart.total price }} | Valor total del carro de compras | 
