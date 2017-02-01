@@ -117,3 +117,16 @@ Es la vista de los productos de la tienda.
 
 <a name="id-metodos"></a>
 # VII. Formularios
+
+<a name="id-marcas"></a>
+## Login
+
+Para iniciar sesión debe crear un form con <code> method="post" action="/login" </code> y debe tener los siguientes id.
+
+- email
+- Passwords
+
+<a name="id-marcas"></a>
+## cart
+
+Para agregar un producto al carro debe crear un form con <code>method="post" action="/cart/add"</code> y un input que tenga el valor <code>value="{{ product.idProduct }}"</code>
